@@ -2,13 +2,19 @@
 
 ## usage
 
+STEP ONE: github got mad at me for committing huge files, so go to releases and grab the statsheets files and put them in /data/statsheets then do...
+
+STEP TWO:
 ```bash
 node fetchStatsheets.js
 ```
 
+STEP 3:
 watch yr computer go brrrrr
 
-## I don't want json tho
+## FAQ
+
+### what if i don't want json???
 
 idk use ndjson-to-csv i guess
 
@@ -16,6 +22,8 @@ idk use ndjson-to-csv i guess
 npx ndjson-to-csv data/statsheets/playerStatsheets.json > playerStatsheets.csv
 ```
 
-## why are these files so big
+there's already a csv prepared in releases 👉
 
-sorry
+#### why are these files so big
+
+sorry, my b

@@ -1,0 +1,17 @@
+{
+  "name": "blaseball-statsheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetchStatsheets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "deepmerge": "^4.2.2",
+    "node-fetch-retry": "^1.0.1",
+    "ndjson": "^2.0"
+  }
+}
